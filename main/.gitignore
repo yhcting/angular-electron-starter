@@ -1,0 +1,12 @@
+# compiled output
+/dist
+/tmp
+/out-tsc
+/release
+*.js.map
+
+# dependencies
+/node_modules
+
+/coverage
+npm-debug.log

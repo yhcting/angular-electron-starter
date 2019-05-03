@@ -1,0 +1,27 @@
+/* Application global style. They should have 'app-' prefix */
+@import 'app';
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  /* font-family: monospace !important; */
+}
+
+/* Change default tooltip style of Angular Material */
+.mat-tooltip
+{
+  @include app-wordbreak-all;
+  font-size: 13px !important;
+  white-space: pre-wrap !important;
+  /* max-width: 800px !important; */
+  /* color: yellow !important; */
+}
+
+.app-wordbreak-all {
+  @include app-wordbreak-all;
+}
+
+.app-table-row-highlight {
+  @include app-table-row-highlight;
+}

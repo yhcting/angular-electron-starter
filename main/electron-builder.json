@@ -1,0 +1,31 @@
+{
+  "productName": "D-Ticket",
+  "directories": {
+    "output": "release/"
+  },
+  "files": [
+    "dist/**/*",
+    "renderer/**/*"
+  ],
+  "win": {
+    "icon": "dist",
+    "target": [
+      "portable"
+    ]
+  },
+  "mac": {
+    "icon": "dist",
+    "target": [
+      "dmg"
+    ]
+  },
+  "linux": {
+    "icon": "dist",
+    "target": [
+      "AppImage"
+    ]
+  },
+  "appImage": {
+    "systemIntegration": "doNotAsk"
+  }
+}

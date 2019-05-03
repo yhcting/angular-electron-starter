@@ -1,0 +1,30 @@
+{
+  "_": {
+    "wallet": "지갑",
+    "host": "Host",
+    "guest": "Guest",
+    "select": "선택",
+    "folder": "폴더",
+    "change": "변경",
+    "privateKey": "개인키"
+  },
+  "hf": {
+    "msp": {
+      "noMsp": "등록된 멤버쉽 정보가 없습니다.",
+      "err": {
+        "mspDir": "잘못된 멤버쉽 폴더 입니다."
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "여기는 임시 HOME 입니다.!"
+    },
+    "wallet": {
+      "msp": {
+        "title": "멤버쉽",
+        "description": "블록체인 멤버쉽"
+      }
+    }
+  }
+}
